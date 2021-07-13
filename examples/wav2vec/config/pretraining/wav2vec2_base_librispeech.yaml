@@ -24,7 +24,7 @@ dataset:
 
 distributed_training:
   distributed_world_size: 64
-  ddp_backend: legacy_ddp
+  ddp_backend: no_c10d
 
 criterion:
   _name: wav2vec
